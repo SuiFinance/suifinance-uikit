@@ -2150,14 +2150,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/sishi_finance",
+                href: "https://t.me/DemeterFi",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/0xsishi",
+        href: "https://twitter.com/DemeterDeFi",
     },
 ];
 var MENU_HEIGHT = 64;
