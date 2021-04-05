@@ -1183,7 +1183,7 @@ var Input$1 = styled.input(templateObject_2$8 || (templateObject_2$8 = __makeTem
 });
 var StyledToggle = styled.div(templateObject_3$4 || (templateObject_3$4 = __makeTemplateObject(["\n  align-items: center;\n  background-color: ", ";\n  border-radius: 24px;\n  box-shadow: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  height: 40px;\n  position: relative;\n  transition: background-color 200ms;\n  width: 72px;\n"], ["\n  align-items: center;\n  background-color: ", ";\n  border-radius: 24px;\n  box-shadow: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  height: 40px;\n  position: relative;\n  transition: background-color 200ms;\n  width: 72px;\n"])), function (_a) {
     var theme = _a.theme, checked = _a.checked;
-    return theme.colors[checked ? "primary" : "input"];
+    return theme.colors[checked ? "success" : "input"];
 }, function (_a) {
     var theme = _a.theme;
     return theme.shadows.inset;
@@ -2737,13 +2737,13 @@ var baseColors = {
     primaryBright: "#cdb865",
     primaryDark: "#cdb865",
     secondary: "#6c584c",
-    success: "#31D0AA",
+    success: "#cdb865",
     warning: "#FFB237",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#dde5b6", backgroundDisabled: "#a0a786", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#6c584c", textDisabled: "#BDC2C4", textSubtle: "#A98467", borderColor: "#E9EAEB", card: "#dde5b6", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#dde5b6", backgroundDisabled: "#d5cc8b", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#6c584c", textDisabled: "#BDC2C4", textSubtle: "#A98467", borderColor: "#E9EAEB", card: "#dde5b6", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
