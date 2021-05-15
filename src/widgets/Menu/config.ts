@@ -48,17 +48,12 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/ValueMoon",
-      },
-    ],
+    href: "https://t.me/valuemoon",
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/ValueMoon",
+    href: "https://twitter.com/value_moon",
   },
 ];
 
