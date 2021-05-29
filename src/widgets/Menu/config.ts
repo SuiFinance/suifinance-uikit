@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.valuemoon.finance",
+        href: "https://exchange.suifinance.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.valuemoon.finance/#/pool",
+        href: "https://exchange.suifinance.finance/#/pool",
       },
     ],
   },
@@ -34,11 +34,11 @@ export const links = [
     items: [
       {
         label: "Docs",
-        href: 'https://docs.valuemoon.finance',
+        href: 'https://docs.suifinance.finance',
       },
       {
         label: "Blog",
-        href: "https://0xvaluemoon.medium.com/",
+        href: "https://0xsuifinance.medium.com/",
       },
     ],
   },
@@ -48,12 +48,12 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/valuemoon",
+    href: "https://t.me/suifinance",
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/value_moon",
+    href: "https://twitter.com/sui_finance",
   },
 ];
 
